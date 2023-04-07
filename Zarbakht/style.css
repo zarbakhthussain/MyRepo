@@ -1,0 +1,377 @@
+/* 
+h1{
+ font-weight: bold;
+ font-style: oblique;
+ font-stretch: condensed;
+ text-decoration: underline;
+
+}
+h2{
+   color: #c7c716;
+   text-transform: capitalize;
+   text-align: justify;
+   text-indent: 100px;
+}
+p{
+   color: rgb(90, 50, 50);
+   line-height: 1em;
+   letter-spacing: 0.2em;
+   word-spacing: 1em;
+}
+p{
+   background-color: rgba(73, 99, 73, 0.397);
+   opacity: 0.8;
+}
+#A1{
+   color: #333333;
+}
+.A3{
+   font-family: serif;
+   line-height:f 20px;
+   font-weight: 800;
+}
+.A4{
+   border: solid 5px;
+   background-color: rgba(141, 141, 109, 0.445);
+}
+li >a{
+color: crimson;
+}
+h1{
+   background-color: rgba(255, 255, 100,0.5);
+   text-transform: uppercase;
+}
+p{
+   color: #1bebc8;
+   background-color: red;
+   font-family: sans-serif;
+   font-size: 20px;
+   font-weight: 800;
+   font-style: italic;
+   font-stretch: condensed;
+   line-height: 50px;
+   letter-spacing: 2px;
+   word-spacing: 5px;
+   border: solid 10px;
+   opacity: 0.5;
+}
+#Abdullah{
+   color: blue;
+   font-style: oblique;
+   background-color: rgb(100,100,100);
+   font-family: serif;
+}
+.Zarbakht{
+   text-indent: 200px;
+   color: #e4c30a;
+   background-color: black;
+}
+h2{
+   text-align: justify;
+   text-transform: lowercase;
+   text-decoration: underline;
+}
+h1:hover {
+   color: deeppink;
+   text-decoration: underline;
+   background-color: #c8c8c8;
+   background-color: hsl(0, 50%, 50%);
+   text-indent: 20px;  
+}
+h3::first-letter{
+ font-size: 10rem;
+ font-family: 'Rubik beastly';
+}
+p::first-line{
+   font-weight: bold;
+}
+ul:link {
+   color: deeppink;
+   text-decoration: underline;
+   font-size: 100%;
+}
+.box{
+   background-color: aqua;
+   border: 2px #f00 solid;
+} */ 
+ /* .box-1{width: 100px;
+   height: 100px;
+   background-color: aqua;
+   margin: 10px 20px 10px 50px; 
+}
+.box-2{
+   width: 100px;
+   height: 100px;
+   background-color: aqua;
+   margin: -50px 100px 200px 0px; 
+}  */
+/* .BOX{
+   border: solid 1PX;
+   padding: 10px;
+   text-align: center;
+   display: inline-block;
+}
+
+.Parent{
+   border: solid 1PX;
+   box-shadow:inset 2px 2px 2px  #f0f;
+}
+.Child{
+   border: solid 1PX;
+   width: 100px;
+   text-align: center;
+   margin: 0 auto;
+   visibility: hidden;\
+} */
+/* .Container{
+   display: flex;
+   justify-content: space-evenly;
+   flex-direction: column;
+}
+.Box-1 {
+   flex:2;
+   order:-2;
+}
+.Box-2 {
+   flex: 2;
+   order:0;
+}
+.Box-3 {
+   flex: 1;
+   order:-1;
+} */
+/* .Container{
+   display: flex;
+   justify-content: space-evenly;
+   flex-direction: row;
+}
+.Box-1,.Box-2,.Box-3,.Box-4{
+   background-color: aqua;
+   width: 40px;
+   height: 40px;
+   color: black;
+} */
+/* .Box-1{
+   background-color: aqua;
+   width: 40px;
+   height: 40px;
+   color: black;
+}
+.Box-2{
+   background-color: aqua;
+   width: 40px;
+   height: 40px;
+   color: black;
+}
+.Box-3{
+   background-color: aqua;
+   width: 40px;
+   height: 40px;
+   color: black;
+}
+.Box-4{
+   background-color: aqua;
+   width: 40px;
+   height: 40px;
+   color: black;
+} */
+/* .Container{
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   font-weight: bold;
+   font-size: 50px;
+} */
+
+/* javascript code */
+/* // var greeting="Hello World";
+// alert("greeting");
+
+// var num=24;
+// alert(num);
+
+// var Bool= false;
+// alert(Bool);
+
+// var num=9;
+// num=num+7;
+// var num2=10;
+// alert(num+num2);
+
+// var num= (11 % 13);
+// alert(num);
+
+// var num = 5;
+// num--; num-- ;num++;
+// alert(num)
+// var num=25;
+
+// ++num; --num; ++num;
+// var num2=num--;
+// alert(++num + num2);
+// var num= 3;
+
+// var text ="Hello";
+// var text1 =25
+// console.log(text + (num + text1));
+
+// var name = prompt("What is your name");
+// console.log("Hello!"+name)
+
+// var num = prompt("What is your Favourite number");
+// console.log(num+5);
+
+// var num =9;
+// var num2 = 9;
+// console.log(num === num2);
+
+// var num =9;
+// var num2 = 6;
+// console.log(num < num2);
+
+// var num =9;
+// var num2 = 9;
+// console.log(num > num2);
+
+// var num =9;
+// var num2 = 9;
+// console.log(num >= num2);
+
+// var num =9;
+// var num2 = 9;
+// console.log(num !== num2);
+
+
+// var num = +prompt("What is your favourite number", 5);
+
+// if (num % 2 === 0) {
+//     console.log("This is an even number");
+// } else {
+//     console.log("This is an odd number");
+// }
+
+// var num = +prompt("Type your fav num");
+
+// if (num % 3 === 0 &&  num % 5 === 0) {
+// console.log("both 3 & 5");
+// } 
+// else if (num % 3 === 0) {
+// console.log("only 3");
+// }
+// else if (num % 5 === 0)
+// {console.log("only 5");
+// }
+// console.log ("undefined" || "true");
+// console.log (undefined || "true");
+// console.log (null || "true");
+
+
+// var num = +prompt("Type your percentage");
+// var grade;
+
+// if (num >=0 && num <=100){
+
+// if (num >=80){
+//     grade="A+";}
+// else if (num >=70){
+//     grade="A";}
+// else if (num >=60){
+//     grade="B";}
+// else if (num >=50){
+//     grade="C";}
+// else grade ="D";
+
+// console.log(grade);}
+// else {console.log("wrong input");}
+
+// * Array
+// var months =["jan", "Feb"];
+// console.log(months[1]);-----feb month ko show krwane ke liye 1 jan ke liye
+
+// var months =["jan", "Feb"];
+// months.push("March","April","May"); ----value ko last me rkhne ke liye
+// months.pop(); -----value ko last se remove krne ke liye
+// months.unshift(1); -----value ko start me rkhne ke liye
+// months.shift(); ------value ko start se remove krne ke liye
+// console.log(months);
+
+// var months =["jan", "Feb","March",3];
+// // months.splice(2,1); ------value ko centre se remove krne ke liye
+// // months.splice(2,1,"March");------value ko centre me add krne ke liye
+// console.log(months);
+
+// var months =["jan","Feb","April",3];
+// months.splice(2,1,"March","April");
+// console.log(months);
+// console.log(months.slice(0,4)); ------value ki ek copy krne ke liye
+
+// * for loop
+// var table = prompt ("Write anything.");
+// var array = [[1, 2, 3],["a", "b", "c"]];
+
+// for (var i = 0; i < array.length; i++)
+// {for (var j = 0; j < array[i].length; j++)
+
+// {console.log(array[i][j]);}  
+// }
+
+// for (var i = 0;i <= 99;i++){
+//     console.log("from loop" + i)
+// }
+
+// Table of 2
+// for (var i = 1;i <= 10;i++){
+//     console.log("2 X " + i + " = " + i*2);
+// }
+
+// Any Table
+// var table = prompt("Write a number.")
+// for (var i = 1; i <= 10; i++){
+//     console.log(table + " X " + i + " = " + i*table);
+// }
+
+// var cities
+// var hours = document.getElementById("hours")
+// var minutes = document.getElementById("minutes")
+// var seconds = document.getElementById("seconds")
+// var AMPM = document.getElementById("AM-PM")
+// setInterval(function() {
+//     var date = new Date()
+//     var currenthour = date.getHours()
+//     hours.innerText = date.getHours()
+//     minutes.innerText = date.getMinutes()
+//     seconds.innerText = date.getSeconds()
+//     AMPM.innerText = 'PM'
+// }, 1000)
+
+// let firstName = "abc"; 
+// alert(firstName);
+// let myLuckyNumber = 1;
+// alert(myLuckyNumber);
+// let isTodayMonday = True;
+// alert(isTodayMonday);
+// legal character is _, $, camelcase
+// Illegal character is #, reserved words, space
+
+// let userInp = prompt("Even or odd");
+// let computerNum = Math.round(Math.random() * 10);
+// let isEven = computerNum % 2 === 0;
+
+// if (isEven && userInp === "even"){
+//     console.log("You won!" + computerNum);
+// }  else if (!isEven && userInp === "odd"){
+//     console.log("You won!" + computerNum); 
+// } else {
+//     console.log("You lose! " + computerNum);
+// }
+ 
+// let userInput = prompt ("Even or Odd");
+// let computerNum = Math.round(Math.random() * 10);
+
+// if (computerNum % 2 === 0 && userInput === "Even") {
+//     console.log("You Won!" + computerNum);
+// } else if (computerNum % 2 !== 0 && userInput === "Odd") {
+//     console.log("You Won!" + computerNum);
+// } else {
+//     console.log("You Lose!" + computerNum);
+// } */
